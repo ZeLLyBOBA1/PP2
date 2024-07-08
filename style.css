@@ -8,18 +8,68 @@ body {
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
+    background-color: rgb(191, 235, 220);
+}
+
+#guide-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #guide{
-    height: 100vh;
+    height: 10vh;
     width: 20vw;
-    background-color: rgb(127, 165, 167);
+    border-radius: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 67, 67);
+    border-style: solid;
+    border-width: 0 0vh 1vh 0;
+    border-color: rgb(46, 41, 41);
+}
+
+#guide-content{
+    height: 87vh;
+    width: 20vw;
+    background-color: rgb(77, 67, 67);
+    border-radius: 0 20px 0 0;
+}
+
+#guide-h1{
+    font-family: Pixelify Sans;
+}
+
+#leaderboard-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
 }
 
 #leaderboard{
-    height: 100vh;
+    height: 10vh;
     width: 20vw;
-    background-color: rgb(127, 165, 167);
+    background-color: rgb(77, 67, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0 20px;
+    border-style: solid;
+    border-width: 0 0 1vh 0vh;
+    border-color: rgb(46, 41, 41);
+}
+
+#leaderboard-content{
+    height: 87vh;
+    width: 20vw;
+    background-color: rgb(77, 67, 67);
+    border-radius: 20px 0 0 0   ;
+}
+
+#leaderboard-h1{
+    font-family: Pixelify Sans;
 }
 
 
@@ -31,25 +81,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0px 0px 20px 20px;
 }
 
 #game-name{
     font-family: Pixelify Sans;
+    font-size: 40px;
 }
 
 #game-console{
-    height: 76vh;
+    height: 78vh;
     width: 58vw;
     background-color: rgb(53, 87, 46);
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    border-radius: 20px;
+    border-style: solid;
+    border-width: 1vh 0 1vh 0;
+    border-color: rgb(44, 72, 38);
 }
 
 #social-links{
     height: 10vh;
     width: 58vw;
     background-color: rgb(77, 67, 67);
-    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
