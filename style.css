@@ -8,7 +8,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
-    background-color: rgb(191, 235, 220);
+    background-color: rgb(55, 47, 47);
 }
 
 #guide-section{
@@ -81,6 +81,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: solid;
+    border-width: 0 0 1vh 0;
+    border-color: rgb(46, 41, 41);
+    border-radius: 0 0 20px 20px;
+}
+
+#header-background{
+    background-color: rgb(55, 47, 47);
 }
 
 #game-name{
@@ -91,18 +99,33 @@ body {
 #game-console{
     height: 78vh;
     width: 58vw;
-    background-color: rgb(53, 87, 46);
+    background-color: rgb(55, 47, 47);
     border-style: solid;
-    border-width: 1vh 0 1vh 0;
-    border-color: rgb(44, 72, 38);
+    border-width: 0 0 0 0;
+    border-color: rgb(46, 41, 41);
+    display: flex;
+    justify-content: center;
+}
+
+canvas{
+    border-style: solid;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
 
 #social-links{
     height: 10vh;
-    width: 58vw;
+    width: 48vw;
     background-color: rgb(77, 67, 67);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    border-style: solid;
+    border-color: rgb(46, 41, 41);
+    border-width: 1vh 0 0 0;
+    border-radius: 20px 20px 0 0;
 }
