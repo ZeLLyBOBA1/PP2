@@ -111,6 +111,13 @@ Simple footer with a bunch of social links, where user can find posts about webA
   - The website pages tested and they are responsive with all screen sizes.
 
 ### Validator Testing
+- JS (By using [JSHint validator](https://jshint.com/))
+
+  -  Result for script.js
+
+     ![JSHint validator](assets/readmeImages/jshint-vallidator-pp2.png)
+
+
 - HTML (By using [W3C validator](https://validator.w3.org/))
 
   -  Result for index.html
