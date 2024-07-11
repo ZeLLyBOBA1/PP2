@@ -88,11 +88,20 @@ li{
     width: 20vw;
     background-color: rgb(77, 67, 67);
     border-radius: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 
 #leaderboard-best-score{
-    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-color:rgb(46, 41, 41);
+    border-width: 4px;
+    border-style: solid;
     font-family: Pixelify Sans;
+    margin-top: 10px;
+    padding: 5px;
 }
 
 #leaderboard-h1{
@@ -185,7 +194,7 @@ footer{
 
 .answer-container{
     width: 80%;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     margin-top: 20px;
     border-style: solid;
     border-width: 5px;
@@ -202,7 +211,7 @@ footer{
 }
 
 .answer{
-    width: 1000px;
+    width: 100%;
     
 }
 
@@ -247,6 +256,7 @@ footer{
     background-color: rgb(148, 130, 130);
     cursor: pointer;
 }
+
   
 @media(max-width: 768px){
     #middle-section{
