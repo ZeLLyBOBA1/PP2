@@ -36,7 +36,6 @@ The GuessIt site is live, please [CLICK HERE](https://zellyboba1.github.io/PP2/)
   - [How to clone](#how-to-clone)
 - [Credits](#credits)
   - [Content](#content)
-  - [Media](#media)
   - [Acknowledgements](#acknowledgements)
 
 ## UX
@@ -116,7 +115,7 @@ Simple footer with a bunch of social links, where user can find posts about webA
 
   -  Result for index.html
 
-     ![W3C html validator Index page](assets/readmeImages/w3validator-pp2.png)
+     ![W3C html validator Index page](assets/readmeImages/w3c-vallidator-pp2.png)
   
    
 
@@ -124,18 +123,19 @@ Simple footer with a bunch of social links, where user can find posts about webA
 
   - Result for style.css
 
-     ![Jigsaw validator message](assets/readme-images/jigsaw-vallidator.png)
+     ![Jigsaw validator message](assets/readmeImages/w3c-css-vallidator-pp2.png)
   
 
 ### Unfixed Bugs
 
 ## Technologies Used
 ### Main Languages Used
+- JavaScript
 - HTML5
 - CSS3
 
+
 ### Frameworks, Libraries & Programs Used
-- Google Fonts - "Open Sans" "Arial" "Sans-serif" and "Monospace"
 - VS-Code - simple programing enviroment
 - GitHub - cloud service to store reposiory
 - boxicons.com - all my social icons I took from this site
@@ -145,10 +145,10 @@ Simple footer with a bunch of social links, where user can find posts about webA
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the main Branch
-- The live link can be found here - [PizzaSlice](https://zellyboba1.github.io/PizzaSlice_PP1/)
+- The live link can be found here - [GuessIt](https://zellyboba1.github.io/PP2/)
 
  ### How to clone
-- Go to the following repository on GitHub: https://github.com/ZeLLyBOBA1/PizzaSlice_PP1
+- Go to the following repository on GitHub: https://zellyboba1.github.io/PP2/
 - At the top right of the screen, click the 'Code' button, and then click 'HTTPs'
 - Copy the link in this field
 - Open VS-code, creat new project folder, open the terminal
@@ -162,9 +162,6 @@ Simple footer with a bunch of social links, where user can find posts about webA
 - [W3Schools](https://www.w3schools.com/css/css3_mediaqueries.asp) - This website helped me to remember html and css structure, it was difficult to remember everything, and in the end of the project I was using this site less and less than in the begining 
 
 - [YouTube](https://www.youtube.com/) - The most popular website with tons of educational videos, that helped me allot in this project, and will help in my future projects, there I found videos like "How to make your website responsive" and "Hamburger menu"
-
-### Media
-- Images on my website was taken from [Pinterest](https://www.pinterest.co.uk/)
 
 ### Acknowledgements
 
